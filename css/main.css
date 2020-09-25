@@ -1,0 +1,80 @@
+/*------ GENERAL -----*/
+
+@font-face{
+    font-family: "courgette";
+    src: url("../fonts/Courgette-Regular.ttf");
+}
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1, h2, h3, blockquote, ol {
+    font-family: "courgette";
+}
+body {
+    max-width: 980px;
+    font-size: 18px;
+    margin: 0 auto;
+    font-family: "San pro";
+    color: #444;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+span {
+    color: #003884;
+}
+
+/*----- HEADER -----*/
+header {
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    color: #003884;
+}
+
+/*----- MAIN -----*/
+
+ol>li>a{
+    text-decoration: none;
+    color: #003884;
+}
+
+h2{
+    text-align: center;
+    color: #4f89b9;
+}
+
+h3{
+    text-align: center;
+    color: #003884;
+}
+
+blockquote{
+    background-color: #d7e1ef;
+    text-align: center;
+    padding: 10px;
+}
+#right{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+#left {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+/*----- FOOTER -----*/
+footer{
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+}
